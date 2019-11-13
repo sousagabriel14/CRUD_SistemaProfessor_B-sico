@@ -1,2 +1,17 @@
 # CRUD_SistemaProfessor_B-sico
-Sistema com CRUD completo básico para professor.
+
+- Sistema CRUD de professores básico com apenas 2 campos:
+
+-Incluir
+-Alterar
+-Excluir
+-Listar
+
+-Professor.java: É criado o objeto professor, com seus atributos e métodos de encapsulamento (Getters and Setters) e construtores.
+
+-ProfessorDAO.java: É feita a abertura do banco para gravar os dados, e criado os métodos Incluir, Alterar, Excluir e Listar.
+
+-ConnectionFactory: Classe onde é feita toda a conexão com o banco de dados.
+
+-Servlets: Classes usadas para estender as funcionalidades do servidor (Tomcat), elas recebem a requisição, processa ou envia para
+outra classe processar e depois retorna uma resposta para onde precisar.
