@@ -1,6 +1,6 @@
 # CRUD_SistemaProfessor_B-sico
 
-- Sistema CRUD de professores básico com apenas 2 campos:
+- Sistema CRUD de professores web básico com apenas 2 campos:
 
 -Incluir
 -Alterar
