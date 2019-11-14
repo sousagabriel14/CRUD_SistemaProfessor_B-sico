@@ -13,5 +13,10 @@
 
 -ConnectionFactory: Classe onde é feita toda a conexão com o banco de dados.
 
--Servlets: Classes usadas para estender as funcionalidades do servidor (Tomcat), elas recebem a requisição, processa ou envia para
-outra classe processar e depois retorna uma resposta para onde precisar.
+-Servlets: Classes usadas para estender as funcionalidades do servidor (Tomcat), elas recebem a requisição, processa ou envia para outra classe processar e depois retorna uma resposta para onde precisar.
+
+-Banco de dados utilizado: phpMyAdmin.
+
+-Conexão: A conexão é feita pelo ConnectionFactory, onde é passado o caminho do Driver MySQL, a porta utilizada, e o nome do banco, junto com o usuário e senha para conexào.
+
+
